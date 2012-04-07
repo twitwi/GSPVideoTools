@@ -10,6 +10,17 @@
   <name>GSPVideoTools</name>
   <url>http://maven.apache.org</url>
 
+    <distributionManagement>
+        <repository>
+            <id>gh-repo</id>
+            <url>file:../maven-repo/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>gh-snap-repo</id>
+            <url>file:../maven-repo/snapshots</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
