@@ -6,9 +6,9 @@
     <groupId>com.heeere.gsp</groupId>
     <artifactId>gsp-videotools</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
      <name>GSPVideoTools</name>
-   <description>Some video related modules for the GSP Framework.</description>
+     <description>Some video related modules for the GSP Framework.</description>
     <url>https://github.com/twitwi/GSPVideoTools</url>
 
     <repositories>
